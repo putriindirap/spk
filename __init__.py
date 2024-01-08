@@ -11,3 +11,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+"""
+# My first app
+Here's our first attempt at using data to create a table:
+"""
+
+import streamlit as st
+import pandas as pd
+df = pd.DataFrame({
+  'first column': [1, 2, 3, 4],
+  'second column': [10, 20, 30, 40]
+})
+
+df
